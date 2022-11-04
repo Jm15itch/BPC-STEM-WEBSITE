@@ -89,8 +89,11 @@ a {
   }
 }
 
-@media screen and (min-width: 1451px) {
-    .tab:hover {
+@media screen and (min-width: 1151px) {
+    .tab {
+        transition: 0.15s;
+    }
+    .TopBarButton:hover .tab {
         padding-top:1.5rem;
     }
 }
