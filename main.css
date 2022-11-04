@@ -1,0 +1,119 @@
+.bg-color-1 {
+    background-color: #040303;
+}
+
+.bg-color-2 {
+    background-color: #5C6B73;
+}
+
+.bg-color-3 {
+    background-color: #9DB4C0;
+}
+
+.bg-color-4 {
+    background-color: #C2DFE3;
+}
+
+.bg-color-5 {
+    background-color: #E0FBFC;
+}
+
+.color-1 {
+    color: #040303;
+}
+
+.color-2 {
+    color: #5C6B73;
+}
+
+.color-3 {
+    color: #9DB4C0;
+}
+
+.color-4 {
+    color: #C2DFE3;
+}
+
+.color-5 {
+    color: #E0FBFC;
+}
+
+.fredoka {
+    font-family: 'Fredoka One', arial, sans-serif;
+}
+
+.arial {
+    font-family: 'Spline Sans Mono', 'Arial', sans-serif;
+}
+
+* {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        background: transparent;
+}
+
+footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+}
+
+a {
+    color: #8694C1;
+}
+
+.rainbow-bg {
+    background: linear-gradient(
+    0.25turn,
+    #fd004c 16.7%,
+    #fe9000 16.7%,
+    #fe9000 33.4%,
+    #fff020 33.4%,
+    #fff020 50.1%,
+    #3edf4b 50.1%,
+    #3edf4b 66.8%,
+    #3363ff 66.8%,
+    #3363ff 83.5%,
+    #b102b7 83.5%
+  );
+    animation: rainbow-effect 20s linear infinite;
+}
+
+@keyframes rainbow-effect {
+  100% {
+    background-position: 100vw 0;
+  }
+}
+
+@media screen and (min-width: 1451px) {
+    .tab:hover {
+        padding-top:1.5rem;
+    }
+}
+
+@media screen and (max-width: 1450px) {
+  .TopBarButton h2 {
+    font-size:20px;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+    .TopBarButton h2 {
+        font-size:40px;
+    }
+    .TopBarButton {
+        border-radius: 0%;
+        width: 100%;
+        border: 2px black solid;
+    }
+    .TopBarButton:active {
+        background-color: #323842;
+    }
+    .TopBarTitle {
+        width: 100%;
+    }
+}
