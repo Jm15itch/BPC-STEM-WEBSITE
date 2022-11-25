@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="37mm"
+   height="10mm"
+   viewBox="0 0 37 10"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="logo2.svg"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   inkscape:export-filename="logo.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="5.5012908"
+     inkscape:cx="51.078921"
+     inkscape:cy="27.811655"
+     inkscape:window-width="1920"
+     inkscape:window-height="1013"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showguides="false" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:'Fredoka One';-inkscape-font-specification:'Fredoka One';fill:#000000;stroke-width:0.264583"
+       x="3.2457392"
+       y="4.8986096"
+       id="text133"><tspan
+         sodipodi:role="line"
+         id="tspan131"
+         style="stroke-width:0.264583"
+         x="3.2457392"
+         y="4.8986096">BPC STEM SOCIETY</tspan></text>
+    <rect
+       style="fill:#fd004c;fill-opacity:1;stroke-width:0.246155"
+       id="rect237"
+       width="5"
+       height="1.5"
+       x="3.4999998"
+       y="5.9649415"
+       inkscape:highlight-color="#fd004c" />
+    <rect
+       style="fill:#fe9000;fill-opacity:1;stroke-width:0.246155"
+       id="rect237-6"
+       width="5"
+       height="1.5"
+       x="8.499999"
+       y="5.9649415" />
+    <rect
+       style="fill:#fff020;fill-opacity:1;stroke-width:0.246155"
+       id="rect237-7"
+       width="5"
+       height="1.5"
+       x="13.499999"
+       y="5.9667649" />
+    <rect
+       style="fill:#3edf4b;fill-opacity:1;stroke-width:0.246155"
+       id="rect237-6-5"
+       width="5"
+       height="1.5"
+       x="18.5"
+       y="5.9667649" />
+    <rect
+       style="fill:#3363ff;fill-opacity:1;stroke-width:0.246155"
+       id="rect237-3"
+       width="5"
+       height="1.5"
+       x="23.5"
+       y="5.9649415" />
+    <rect
+       style="fill:#b102b0;fill-opacity:1;stroke-width:0.246155"
+       id="rect237-6-56"
+       width="5"
+       height="1.5"
+       x="28.5"
+       y="5.9649415" />
+  </g>
+</svg>
