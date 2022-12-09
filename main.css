@@ -43,7 +43,9 @@
 }
 
 .arial {
-    font-family: 'Spline Sans Mono', 'Arial', sans-serif;
+    font-family: 'Poppins', 'Arial', sans-serif;
+    letter-spacing: .1rem;
+    line-height: 1.5em;
 }
 
 * {
