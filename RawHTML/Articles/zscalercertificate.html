@@ -1,0 +1,17 @@
+<main style="width:100%; padding:120px;">
+  <div class="arial color-5 tc v-mid">
+    <h1 style="padding-top:40px;">How to install Zscaler certificates on Linux</h1>
+    <h2 style="padding:10px; padding-bottom:40px;">Article written by Jack Mitchell (5/6/2023)</h2>
+    <p class="mr6 ml6">Zscaler is a firewall commonly used in educational or professional workplaces to block access inappropriate or malicious content. Zscaler uses a certificate to decrypt traffic from your device so it can inspect where it's going and what you're doing, this is generated uniquely. If you plan to use Linux while also having access to the internet then you will have to follow this tutorial.</p>
+    <h2 class="mr6 ml6 mt5">Step 1. Find your certificate</h2>
+    <p class="mr6 ml6 mt2">If your administrator is friendly to Linux then you may be able to ask for it, however, if they aren't then you'll have to look for one. A common place to look is your workplace's Google Drive, go to your Drive and search "Zscaler" or "Certificate". You are looking for a certificate file that is named something like, "ZscalerRootCertificate-2048-SHA256.crt".</p>
+    <h2 class="mr6 ml6 mt5">Step 2. Install</h2>
+    <p class="mr6 ml6 mt2">These are the steps required for their respective distributions.</p>
+    <h3 class="mr6 ml6 mt5">Arch / EndeavourOS / Garuda</h3>
+    <p class="mr6 ml6 mt2" style="padding:7px; background-color: RGB(30,30,30); font-size:10px;">sudo trust anchor --store ZscalerRootCertificate-2048-SHA256.crt</p>
+    <h3 class="mr6 ml6 mt5">Debian / Ubuntu / Mint</h3>
+    <p class="mr6 ml6 mt2" style="padding:7px; background-color: RGB(30,30,30); font-size:10px;">sudo cp ZscalerRootCertificate-2048-SHA256.crt /usr/local/share/ca-certificates/ZscalerRootCertificate.crt; sudo update-ca-certificates</p>
+    <h2 class="mr6 ml6 mt5">Step 3. Connect</h2>
+    <p class="mr6 ml6 mt2">If everything went ok, then you should be able to connect to your workplaces wifi using PEAP authentication and your username and password. If anything went wrong, I left out your distribution, or you need further help then feel free to contact me and I'll happily guide you through the process.</p>
+  </div>
+</main>

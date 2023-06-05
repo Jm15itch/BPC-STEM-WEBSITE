@@ -1,0 +1,101 @@
+<main style="width:100%; padding:50px;">
+  <div class="arial color-5 tc v-mid">
+    <h1 class="pt4 pb4">Contact</h1>
+    <h2>If you have questions, suggestions, or anything else. My email address is:</h2><br>
+    <h1>jmitchell9@parrastu.catholic.edu.au</h1>
+    <!--<center>
+    <svg id="Game" viewBox="0 0 100 100" style="width:500px; height:500px; padding:50px;">
+      <rect width="100" height="100" style="fill:rgb(25, 25, 25);stroke-width:3;stroke:rgb(0,0,0)" />
+      <polygon id="pointer" points="47,47 53,47 50,53" style="fill:lime;stroke:purple;stroke-width:1;fill-rule:evenodd;transform: transform-box: fill-box; transform-origin: center; transform: rotate(45deg);" />
+      <rect id="ButtonBG" width="50" height="30" x="25" y="30" style="fill:rgb(45, 45, 45);stroke-width:1;stroke:rgb(220,220,220)" onclick="Play()" />
+      <text id="ButtonText" x="30" y="50" fill="white" onclick="Play()">Play</text>
+      <text id="Score" x="5" y="10" fill="white" style="font: 7px arial;"></text>
+    </svg>
+    </center>
+    <script>
+const Score = document.getElementById("Score");
+
+var PlayerRotation = 0;
+
+class Enemy {
+  constructor(x, y) {
+    this.ElementD = document.createElementNS("http://www.w3.org/2000/svg", "circle");
+    this.ElementD.setAttribute("fill", "red");
+    this.ElementD.setAttribute("r", "3");
+    document.getElementById("Game").appendChild(this.ElementD);
+
+    this.PosX = x;
+    this.PosY = y;
+    this.Speed = 0.3;
+
+    var Divider = Math.sqrt(x*x + y*y);
+
+    this.XRot = x/Divider;
+    this.YRot = y/Divider;
+  }
+  MoveCloser() {
+    this.PosY -= this.YRot * this.Speed;
+    this.PosX -= this.XRot * this.Speed;
+
+    if (Math.sqrt(this.PosY*this.PosY + this.PosX*this.PosX) < 2) {
+      window.location.reload();
+    }
+
+    this.ElementD.setAttribute("cy", this.PosY+50);
+    this.ElementD.setAttribute("cx", this.PosX+50);
+  }
+}
+
+class Bullet {
+  constructor() {
+    this.ElementD = document.createElementNS("http://www.w3.org/2000/svg", "circle");
+    this.ElementD.setAttribute("fill", "yellow");
+    this.ElementD.setAttribute("r", "1");
+    document.getElementById("Game").appendChild(this.ElementD);
+
+    this.PosX = 0;
+    this.PosY = 0;
+    this.Speed = 1;
+
+    this.XRot = Math.sin(PlayerRotation * 180/Math.pi);
+    this.YRot = Math.cos(PlayerRotation * 180/Math.pi);
+  }
+  MoveCloser() {
+    this.PosY -= this.YRot * this.Speed;
+    this.PosX -= this.XRot * this.Speed;
+
+    this.ElementD.setAttribute("cy", this.PosY+50);
+    this.ElementD.setAttribute("cx", this.PosX+50);
+  }
+}
+
+var Enemies = [];
+
+var Bullets = [];
+
+function MakeEnemy() {
+}
+
+function Fire() {
+  Bullets.push(new Bullet())
+}
+
+const EnemyTest = new Enemy(-50, -50);
+
+function Tick() {
+  EnemyTest.MoveCloser();
+
+  for Bullet in Bullets {
+    Bullet.MoveCloser();
+  }
+}
+
+function Play() {
+  document.getElementById("ButtonBG").remove();
+  document.getElementById("ButtonText").remove();
+  Score.innerHTML = "0";
+  setInterval(Tick, 50);
+}
+    </script>-->
+  </div>
+</main>
