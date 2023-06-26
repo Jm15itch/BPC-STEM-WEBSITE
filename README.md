@@ -17,11 +17,11 @@ sudo yum install php
 ```
 Windows:
 ```
-good luck
+https://windows.php.net/download#php-8.2
 ```
 
 then download all the files in this repository. Extract the contents to a folder. Open a console in that folder and use the command:
 ```
 php -S localhost:9999
 ```
-and you should be able to connect to your hosted version of the website by putting localhost:9999 in your browser.
+and you should be able to connect to your hosted version of the website by putting localhost:9999 in your browser. This shouldn't be used for production servers, for that use apache!
